@@ -1,0 +1,107 @@
+.push-button {
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 200;
+    text-align: right;
+    background-color: #31bdd8;
+    width: 210px;
+    height: 90px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font: 20px "Arial";
+
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-origin: content-box;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.push-button:focus {
+    background-color: #30a3be;
+    outline: none;
+}
+
+.btn-primary {
+    width: 210px;
+    height: 90px;
+    margin-left:20px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-origin: content-box;
+}
+
+.push-button:hover {
+    box-shadow: 0 3px 4px 0 #007299;
+}
+
+.push-button:active {
+    box-shadow: none;
+    background-color: #31cee9;
+}
+
+#take-off {background-image: url("../../images/takeoff.png");}
+#land {background-image: url("../../images/land.png");}
+#arm {background-image: url("../../images/propeller.png");}
+#disarm {background-image: url("../../images/stop.png");}
+#guided-mode {background-image: url("../../images/forward.png");}
+#pos-mode {background-image: url("../../images/pos_hold.png");}
+
+
+.regular-checkbox {
+    -webkit-appearance: none;
+    background-color: #fafafa;
+    border: 1px solid #cacece;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0 -15px 10px -12px rgba(0,0,0,0.05);
+    padding: 9px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+}
+
+.regular-checkbox:active, .regular-checkbox:checked:active {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.regular-checkbox:checked {
+    background-color: #31bdd8;
+    border: 1px solid #adb8c0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0 -15px 10px -12px rgba(0,0,0,0.05),
+    inset 15px 10px -12px rgba(255,255,255,0.1);
+    color: #99a1a7;
+}
+
+.regular-checkbox:checked:after {
+    content: '\2714';
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    left: 3px;
+    color: white;
+}
+
+.big-checkbox {
+    padding: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.big-checkbox:checked:after {
+    font-size: 28px;
+    left: 6px;
+}
+
+.input-text {
+    font-size: 18px;
+}
+
+#checkbox-2-1 {
+    margin-right: 10px;
+}
+
+#checkbox-2-2 {
+    margin: 0 10px 0 55px;
+}

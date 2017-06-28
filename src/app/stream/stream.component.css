@@ -1,0 +1,13 @@
+.video-stream {
+    width: 640px;
+    height: 480px;
+    margin-left: 30px;
+    /*background-image: url("../../images/stream.jpg");*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #cccccc;
+}
+
+#img-holder {
+    max-height: 320px;
+}
